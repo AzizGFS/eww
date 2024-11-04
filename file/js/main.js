@@ -172,7 +172,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                                         $("#tombolPopup").remove();
                                                         $("#bubble").remove();
                                                         $("#lope").removeClass("tulisan");
-                                                        $.playSound('asset/audio/mine.mp3');
+                                                        $.playSound('file/audio/mine.mp3');
                                                         confetti.start();
                                                     })
                                                 })
@@ -247,7 +247,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                                                 setInterval(draw, 30);
                                                             }
                                                         })
-                                                        $.playSound('asset/audio/sakit.mp3');
+                                                        $.playSound('file/audio/sakit.mp3');
                                                     })
                                                 })
                                             }
@@ -418,7 +418,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                                                 $("#tombolPopup").remove();
                                                                 $("#bubble").remove();
                                                                 $("#lope").removeClass("tulisan");
-                                                                $.playSound('asset/audio/mine.mp3');
+                                                                $.playSound('file/audio/mine.mp3');
                                                                 confetti.start();
                                                             })
                                                         })
