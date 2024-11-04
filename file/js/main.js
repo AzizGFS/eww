@@ -342,7 +342,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                                         setInterval(draw, 30);
                                                     }
                                                 })
-                                                $.playSound('asset/audio/sakit.mp3');
+                                                $.playSound('file/audio/sakit.mp3');
                                             })
                                         })
                                     } else {
@@ -493,7 +493,7 @@ $(document).on('click', '#tombolPopup', function (e) {
                                                                         setInterval(draw, 30);
                                                                     }
                                                                 })
-                                                                $.playSound('asset/audio/sakit.mp3');
+                                                                $.playSound('file/audio/sakit.mp3');
                                                             })
                                                         })
                                                     }
